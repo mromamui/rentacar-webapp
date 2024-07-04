@@ -4,6 +4,7 @@ import RentalList from "@/components/RentalList";
 import ListaVehiculos from "@/components/ListaVehiculos";
 import ClientList from "@/components/ClientList";
 import AvailableVehicles from "@/components/AvailableVehicles";
+import FichaAlquiler from "@/components/FichaAlquiler";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
           <ListaVehiculos />
           <ClientList />
           <AvailableVehicles />
+          <FichaAlquiler />
       </>
   );
 }
