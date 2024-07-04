@@ -5,7 +5,7 @@ function RentalList() {
 
     useEffect(() => {
         const fetchRentals = async () => {
-            const response = await fetch('http://localhost:3000/backoffice/rentals');
+            const response = await fetch('http://localhost:3000/rentals');
             const data = await response.json();
             setRentals(data);
         };

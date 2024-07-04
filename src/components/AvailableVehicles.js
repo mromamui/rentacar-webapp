@@ -5,7 +5,7 @@ function AvailableVehicles() {
 
     useEffect(() => {
         const fetchAvailableVehicles = async () => {
-            const response = await fetch('http://localhost:3000/backoffice/available-vehicles');
+            const response = await fetch('http://localhost:3000/available-vehicles');
             const data = await response.json();
             setVehicles(data);
         };

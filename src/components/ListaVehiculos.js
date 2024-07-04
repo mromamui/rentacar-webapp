@@ -5,7 +5,7 @@ function VehicleList() {
 
     useEffect(() => {
         const fetchVehicles = async () => {
-            const response = await fetch('http://localhost:3000/backoffice/vehicles');
+            const response = await fetch('http://localhost:3000/vehicles');
             const data = await response.json();
             setVehicles(data);
         };

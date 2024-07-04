@@ -5,7 +5,7 @@ function ClientList() {
 
     useEffect(() => {
         const fetchClients = async () => {
-            const response = await fetch('http://localhost:3000/backoffice/clients');
+            const response = await fetch('http://localhost:3000/clients');
             const data = await response.json();
             setClients(data);
         };
